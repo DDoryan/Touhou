@@ -28,7 +28,7 @@ public class FirstPattern : MonoBehaviour
             Vector3 bulMoveVector = new Vector3(bulDirX, bulDirY, 0f);
             Vector2 bulDir = (bulMoveVector - transform.position).normalized;
 
-            GameObject bullet = BulletManager.instance.CreateBullet("bullet");
+            GameObject bullet = BulletManager.instance.CreateBullet("orange bullet");
             bullet.transform.position = transform.position;
             bullet.transform.rotation = transform.rotation;
 

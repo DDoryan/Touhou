@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - bullet
+  - wayPoint
+  - big bullet
+  - orange bullet
   layers:
   - Default
   - TransparentFX
